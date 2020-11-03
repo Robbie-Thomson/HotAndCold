@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="compassPointer">#FF0000</color>
+    <color name="exploreFar">#B71C1C</color>
+    <color name="exploreMedium">#67315B</color>
+    <color name="exploreClose">#0D47A1</color>
+</resources>

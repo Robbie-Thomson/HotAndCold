@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Getting Warmer</string>
+    <string name="getting_warmer_logo">Getting Warmer... Logo</string>
+
+    <string name="activity_main_tv_login">Login</string>
+    <string name="activity_main_student">Student</string>
+    <string name="activity_main_open_day">Open Day</string>
+    <string name="activity_main_visitor">Visitor / Tourist</string>
+
+    <string name="activity_login_id">Student ID</string>
+    <string name="activity_login_password">Password</string>
+    <string name="activity_login_code">Open Day Code</string>
+    <string name="activity_login_date">dd/mm/yyyy</string>
+    <string name="activity_login_login">Login</string>
+
+    <string name="activity_destination_name">Select a Destination</string>
+    <string name="activity_destination_btn1">Boyd Orr</string>
+    <string name="activity_destination_btn2">Fraser Building</string>
+    <string name="activity_destination_btn3">Library</string>
+    <string name="activity_destination_btn4">Main Building Gate</string>
+    <string name="activity_destination_btn5">GUU</string>
+    <string name="activity_destination_btn6">QMU</string>
+    <string name="activity_destination_moredest">More Destinations</string>
+    <string name="activity_destination_home">Home</string>
+    <string name="activity_destination_profile">Profile</string>
+    <string name="activity_destination_settings">Settings</string>
+    <string name="activity_destination_qr">QR Scanner</string>
+
+    <string name="activity_open_destination_instruction">Select only one option: </string>
+    <string name="activity_open_destination_option1">Home Student Info:</string>
+    <string name="activity_open_destination_option1_place">Boyd Orr, 12:00</string>
+    <string name="activity_open_destination_option2">Foreign Student Info:</string>
+    <string name="activity_open_destination_option2_place">Boyd Orr, 12:00</string>
+    <string name="activity_open_destination_option3">Study Abroad Opportunities</string>
+    <string name="activity_open_destination_option3_place">Adam Smith, 13:00</string>
+    <string name="activity_open_destination_option4">Application Advice</string>
+    <string name="activity_open_destination_option4_place">Alexander Stone, 14:00</string>
+    <string name="activity_open_destination_start_exploration">Start Exploring</string>
+
+    <string name="activity_profile_name_default">Hello</string>
+    <string name="activity_profile_location_data">You\'re in the QMU\n\nLet classmates know?</string>
+    <string name="activity_profile_list_title">Visited Destinations</string>
+    <string name="activity_profile_day">Timetable: Thursday</string>
+    <string name="activity_profile_lab">Mobile HCI - Lab: </string>
+    <string name="activity_profile_lecture">Mobile HCI - Lecture: </string>
+    <string name="activity_profile_time1">10AM - 11AM</string>
+    <string name="activity_profile_time2">11AM - 12PM</string>
+    <string name="activity_profile_time3">2PM - 3PM</string>
+    <string name="activity_profile_location1">Boyd Orr</string>
+    <string name="activity_profile_location2">Sir Alexander Stone Building</string>
+    <string name="activity_profile_location3">Graham Kerr Building</string>
+
+    <string name="activity_qr_text">Scan Building QR Codes</string>
+    <string name="activity_qr_rect">QR Box</string>
+    <string name="activity_qr_capture">Capture Button</string>
+    <string name="activity_qr_info">Info Button</string>
+
+    <string name="activity_settings_title">Settings</string>
+    <string name="activity_settings_headersize">Header Font Size: </string>
+    <string name="activity_settings_headersizedp">24sp</string>
+    <string name="activity_settings_subheadersize">Sub-Header Font Size: </string>
+    <string name="activity_settings_subheadersizedp">20sp</string>
+    <string name="activity_settings_normalsize">Regular Font Size: </string>
+    <string name="activity_settings_normalsizedp">14sp</string>
+    <string name="activity_settings_sound">Sound: </string>
+    <string name="activity_settings_vibration">Vibration: </string>
+    <string name="activity_settings_report">Report a Problem</string>
+    <string name="activity_settings_reporthint">Enter your problem here..</string>
+    <string name="activity_settings_submit">Submit</string>
+
+    <string name="activity_explore_searching">You\'re searching for:\n</string>
+    <string name="activity_explore_compassdesc">Compass</string>
+    <string name="activity_explore_pointerdesc">Compass Pointer</string>
+
+    <string name="popup_title">Info</string>
+    <string name="popup_close">Close</string>
+    <string name="popup_info_1">You can scan the QR code on destinations to learn more about them.</string>
+    <string name="popup_info_2">As you get closer to the destination the screen background will gradually
+    change from Blue to Red. The Red pointer indicates the direction to go to the destination. Your
+    phone will vibrate when you get to your destination.</string>
+
+    <string name="building_popup_title">Boyd Orr</string>
+    <string name="building_popup_text">The Boyd Orr building found next to Ashton Lane contains the majority
+    of the labs used by computing science students at the university of glasgow.\n\n
+    The Boyd Orr Building is named for the Nobel laureate Lord Boyd Orr of Brechin (1880-1971), Rector of
+    the University from 1945 to 1947, and Chancellor of the University from 1946 to 1971.\n\n
+    It was designed in 1964 by architects JL Gleave and Partners primarily as a general science building to
+    act as an overflow for the overcrowded departmental buildings largely for first-year students given the
+    projected 50% increase in students during the late 1960s and early 1970s.\n\n
+    Sir Eric Ashby, botanist and Master of Clare College, Cambridge, officially opened the £1.25m Boyd Orr building on 3 October 1972.\n\n
+    The interior has been largely refurbished. In 2009-2010, the two main lecture theatres were updated by crgp limited</string>
+</resources>

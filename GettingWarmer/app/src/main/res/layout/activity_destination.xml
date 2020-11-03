@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DestinationActivity">
+
+    <ImageView
+        android:id="@+id/activity_destination_img_logo"
+        android:layout_width="372dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:contentDescription="@string/getting_warmer_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/HeaderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="@string/activity_destination_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_destination_img_logo" />
+
+    <LinearLayout
+        android:id="@+id/innerButton1"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageButton
+            android:id="@+id/activity_destination_btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:contentDescription="@string/activity_destination_btn1"
+            android:onClick="switchBoyd"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/boydorr" />
+
+        <TextView
+            android:id="@+id/activity_destination_tv_1"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/activity_destination_btn1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/innerButton2"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageButton
+            android:id="@+id/activity_destination_btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:contentDescription="@string/activity_destination_btn2"
+            android:onClick="switchFraser"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/fraserbuilding" />
+
+        <TextView
+            android:id="@+id/activity_destination_tv_2"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/activity_destination_btn2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/innerButton3"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/innerButton1">
+
+        <ImageButton
+            android:id="@+id/activity_destination_btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:contentDescription="@string/activity_destination_btn3"
+            android:onClick="switchLibrary"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/library" />
+
+        <TextView
+            android:id="@+id/activity_destination_tv_3"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/activity_destination_btn3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/innerButton4"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/innerButton2">
+
+        <ImageButton
+            android:id="@+id/activity_destination_btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:contentDescription="@string/activity_destination_btn4"
+            android:onClick="switchMain"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/mainbuilding" />
+
+        <TextView
+            android:id="@+id/activity_destination_tv_4"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/activity_destination_btn4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/innerButton5"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/innerButton3">
+
+        <ImageButton
+            android:id="@+id/activity_destination_btn_5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:contentDescription="@string/activity_destination_btn5"
+            android:onClick="switchGUU"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/guu" />
+
+        <TextView
+            android:id="@+id/activity_destination_tv_5"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/activity_destination_btn5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/innerButton6"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/innerButton4">
+
+        <ImageButton
+            android:id="@+id/activity_destination_btn_6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:contentDescription="@string/activity_destination_btn6"
+            android:onClick="switchQMU"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/qmu" />
+
+        <TextView
+            android:id="@+id/activity_destination_tv_6"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/activity_destination_btn6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonBar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/activity_destination_btn_home"
+            style="@style/ButtonBarText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="switchHomeHandler"
+            android:text="@string/activity_destination_home" />
+
+        <Button
+            android:id="@+id/activity_destination_btn_qr"
+            style="@style/ButtonBarText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="switchQR"
+            android:text="@string/activity_destination_qr" />
+
+        <Button
+            android:id="@+id/activity_destination_btn_settings"
+            style="@style/ButtonBarText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="switchSettings"
+            android:text="@string/activity_destination_settings" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
